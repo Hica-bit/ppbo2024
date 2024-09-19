@@ -1,0 +1,12 @@
+{
+    "name": "sachi_natta/ppbo2024",
+    "description": "Merupakan package untuk latihan pemrograman berorientasi objek",
+    "type": "project",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "App\\":"App"
+        }
+    }
+}
