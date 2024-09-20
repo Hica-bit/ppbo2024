@@ -1,4 +1,8 @@
-class Kerucut
+<?php
+
+namespace App\Shape;
+
+class Tabung
 {
     const PHI = 3.14;
     public $jari_jari;
@@ -9,9 +13,8 @@ class Kerucut
         $this->jari_jari = $jari_jari;
         $this->tinggi = $tinggi;
     }
-
     public function volume(): float
     {
-        return (1/3) * self::PHI * $this->jari_jari * $this->jari_jari * $this->tinggi;
+        return self::PHI * $this->jari_jari * $this->jari_jari * $this->tinggi;
     }
 }

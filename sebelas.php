@@ -1,9 +1,9 @@
 <?php
 
-require_once 'App/Admin/Pegawai.php';
-require_once 'App/Admin/Dosen.php';
+require_once 'App/Model/Akademik/Pegawai.php';
+require_once 'App/Model/Akademik/Dosen.php';
 
-use App\Admin\Dosen;
+use App\Model\Akademik\Dosen;
 
 $dian = new Dosen();
 
