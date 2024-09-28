@@ -13,7 +13,7 @@ class Author
         $this->description = $description;
     }
 
-    public function show($film)
+    public function show()
     {
         return [
             'name' => $this->name,
